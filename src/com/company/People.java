@@ -14,4 +14,10 @@ public class People {
         this.gender = gender;
         this.nationality = nationality;
     }
+
+    @Override
+    public String toString() {
+        return firstname + " " + lastname + ":\n\tВозраст: " + age
+                + "\n\tПол: " + gender + "\n\tНациональность: " + nationality + "\n";
+    }
 }
