@@ -13,4 +13,11 @@ public class Adult extends People{
         this.experience = experience;
         this.post = post;
     }
+
+    @Override
+    public String toString() {
+        return firstname + " " + lastname + ":\n\tВозраст: " + age
+                + "\n\tПол: " + gender + "\n\tНациональность: " + nationality + "\n\tМесто работы: "
+                + placeOfWork + "\n\tОпыт работы: " + experience + "\n\tДолжность: " + post + "\n";
+    }
 }
